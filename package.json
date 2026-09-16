@@ -1,0 +1,38 @@
+{
+  "name": "@yukikisaku/pi-hide-tools",
+  "version": "0.1.0",
+  "description": "Hide tool rows by default and toggle a compact one-line view.",
+  "type": "module",
+  "license": "MIT",
+  "author": "yuki-kisaku",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukikisaku/pi-hide-tools.git"
+  },
+  "homepage": "https://github.com/yukikisaku/pi-hide-tools#readme",
+  "bugs": {
+    "url": "https://github.com/yukikisaku/pi-hide-tools/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "files": [
+    "index.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
